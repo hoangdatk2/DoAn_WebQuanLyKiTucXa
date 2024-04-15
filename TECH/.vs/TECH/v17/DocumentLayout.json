@@ -1,0 +1,1209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\tech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\tech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\phongmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\phongmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\css\\style-mobile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\css\\style-mobile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\utilities\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\utilities\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\admin\\avartar\\avatar-mac-dinh.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\admin\\avartar\\avatar-mac-dinh.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\js\\shared\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\js\\shared\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\web\\appusers\\appusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\web\\appusers\\appusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\dichvumodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\dichvumodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\categorymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\categorymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\hopdongmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\hopdongmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\utilities\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\utilities\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\databaseentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\databaseentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\general\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\general\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\thanhphomodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\thanhphomodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\usermodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\usermodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\search\\productviewmodelsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\search\\productviewmodelsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\search\\postsviewmodelsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\search\\postsviewmodelsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\search\\pageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\search\\pageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\sharedkernel\\domainentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\sharedkernel\\domainentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\districtsmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\districtsmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\dichvuphongmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\dichvuphongmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\nha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\nha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\thanhvienphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\thanhvienphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\khachhangmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\khachhangmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\tech.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\tech.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\thanhvienphongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\thanhvienphongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\thanhphorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\thanhphorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\service\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\search\\hopdongviewmodelsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\search\\hopdongviewmodelsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\hoadonmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\hoadonmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\admin\\appusers\\appusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\admin\\appusers\\appusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\website\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\website\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\share\\tedu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\share\\tedu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\share\\extension-table.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\share\\extension-table.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\ordersmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\ordersmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\hoadonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\hoadonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\views\\nhanvien\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\nhanvien\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\views\\nhanvien\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\nhanvien\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\khachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\khachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\hopdongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\hopdongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\views\\nhanvien\\viewdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\nhanvien\\viewdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\chitiethoadonmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\chitiethoadonmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\loiphammodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\loiphammodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\loipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\loipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\loiphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\loiphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\chitiethoadonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\chitiethoadonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\reponsitory\\dichvuphongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\reponsitory\\dichvuphongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\areas\\admin\\models\\thanhvienphongmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\thanhvienphongmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\data\\databaseentity\\dichvuphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\dichvuphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ki tuc xa\\tech\\tech\\wwwroot\\admin\\nhanvien\\nhanvien.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\admin\\nhanvien\\nhanvien.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\appsettings.json",
+              "RelativeDocumentMoniker": "TECH\\appsettings.json",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\appsettings.json",
+              "RelativeToolTip": "TECH\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-25T14:19:24.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TECH\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TECH\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Program.cs",
+              "RelativeDocumentMoniker": "TECH\\Program.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Program.cs",
+              "RelativeToolTip": "TECH\\Program.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAACwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAAAAgBAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:24.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAqwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:25.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAoBAAAAAAAAAAArwCEBAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:23.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PhongModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\PhongModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\PhongModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\PhongModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\PhongModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TECH.csproj",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\TECH.csproj",
+              "RelativeDocumentMoniker": "TECH\\TECH.csproj",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\TECH.csproj",
+              "RelativeToolTip": "TECH\\TECH.csproj",
+              "ViewState": "AQIAAB0AAAAAAAAAAABBwCwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-25T14:19:24.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Phong.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\Phong.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\Phong.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\Phong.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\Phong.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "style-mobile.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\css\\style-mobile.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\css\\style-mobile.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\css\\style-mobile.css",
+              "RelativeToolTip": "TECH\\wwwroot\\css\\style-mobile.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-25T14:19:24.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMBAAAAAAAAAAAkwBoBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TECH\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:24.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TECH\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:24.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Utilities\\PagedResult.cs",
+              "RelativeDocumentMoniker": "TECH\\Utilities\\PagedResult.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Utilities\\PagedResult.cs",
+              "RelativeToolTip": "TECH\\Utilities\\PagedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\HoaDon.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\HoaDon.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\HoaDon.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\HoaDon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DichVu.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\DichVu.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\DichVu.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\DichVu.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\DichVu.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "avatar-mac-dinh.jpg",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\admin\\avartar\\avatar-mac-dinh.jpg",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\admin\\avartar\\avatar-mac-dinh.jpg",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\admin\\avartar\\avatar-mac-dinh.jpg",
+              "RelativeToolTip": "TECH\\wwwroot\\admin\\avartar\\avatar-mac-dinh.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-03-25T14:19:24.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DichVuModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\DichVuModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\DichVuModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\DichVuModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\DichVuModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "shared.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\js\\shared\\shared.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\js\\shared\\shared.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\js\\shared\\shared.js",
+              "RelativeToolTip": "TECH\\wwwroot\\js\\shared\\shared.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T14:19:24.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appusers.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\web\\appusers\\appusers.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\web\\appusers\\appusers.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\web\\appusers\\appusers.js",
+              "RelativeToolTip": "TECH\\wwwroot\\web\\appusers\\appusers.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T14:19:24.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EFRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\EFRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\EFRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\EFRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\EFRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAnwDIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\CategoryModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\CategoryModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\CategoryModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\CategoryModelView.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EFUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\EFUnitOfWork.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\EFUnitOfWork.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\EFUnitOfWork.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\EFUnitOfWork.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HopDongModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\HopDongModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\HopDongModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\HopDongModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\HopDongModelView.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:24.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:24.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAACBzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:24.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PagedResultBase.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Utilities\\PagedResultBase.cs",
+              "RelativeDocumentMoniker": "TECH\\Utilities\\PagedResultBase.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Utilities\\PagedResultBase.cs",
+              "RelativeToolTip": "TECH\\Utilities\\PagedResultBase.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\UsersRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\UsersRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\UsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DataBaseEntityContext.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\DataBaseEntityContext.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\DataBaseEntityContext.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\DataBaseEntityContext.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\DataBaseEntityContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "General.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\General\\General.cs",
+              "RelativeDocumentMoniker": "TECH\\General\\General.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\General\\General.cs",
+              "RelativeToolTip": "TECH\\General\\General.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAlwKgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ThanhPhoModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\ThanhPhoModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\ThanhPhoModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\ThanhPhoModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\ThanhPhoModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ChiTietHoaDon.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\ChiTietHoaDon.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\ChiTietHoaDon.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\ChiTietHoaDon.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\ChiTietHoaDon.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwBwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HopDong.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\HopDong.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\HopDong.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\HopDong.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\HopDong.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\UserModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\UserModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\UserModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\UserModelView.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIA6wBsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductViewModelSearch.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\Search\\ProductViewModelSearch.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\Search\\ProductViewModelSearch.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\Search\\ProductViewModelSearch.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\Search\\ProductViewModelSearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PostsViewModelSearch.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\Search\\PostsViewModelSearch.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\Search\\PostsViewModelSearch.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\Search\\PostsViewModelSearch.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\Search\\PostsViewModelSearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PageViewModel.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\Search\\PageViewModel.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\Search\\PageViewModel.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\Search\\PageViewModel.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\Search\\PageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DomainEntity.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\SharedKernel\\DomainEntity.cs",
+              "RelativeDocumentMoniker": "TECH\\SharedKernel\\DomainEntity.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\SharedKernel\\DomainEntity.cs",
+              "RelativeToolTip": "TECH\\SharedKernel\\DomainEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "ViewState": "AQIAAP8BAAAAAAAAACBzwB8CAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DistrictsModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\DistrictsModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\DistrictsModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\DistrictsModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\DistrictsModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Nha.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\Nha.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\Nha.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\Nha.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\Nha.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAACBjwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DichVuPhongModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\DichVuPhongModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\DichVuPhongModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\DichVuPhongModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\DichVuPhongModelView.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ThanhVienPhong.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\ThanhVienPhong.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\ThanhVienPhong.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\ThanhVienPhong.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\ThanhVienPhong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAACBjwA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswDkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:25.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "KhachHangModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\KhachHangModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\KhachHangModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\KhachHangModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\KhachHangModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TECH",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\TECH.csproj",
+              "RelativeDocumentMoniker": "TECH\\TECH.csproj",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\TECH.csproj",
+              "RelativeToolTip": "TECH\\TECH.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-25T14:19:25.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ThanhVienPhongRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\ThanhVienPhongRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\ThanhVienPhongRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\ThanhVienPhongRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\ThanhVienPhongRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ThanhPhoRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\ThanhPhoRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\ThanhPhoRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\ThanhPhoRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\ThanhPhoRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AppUserService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Service\\AppUserService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\AppUserService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Service\\AppUserService.cs",
+              "RelativeToolTip": "TECH\\Service\\AppUserService.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAmwHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "HopDongViewModelSearch.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\Search\\HopDongViewModelSearch.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\Search\\HopDongViewModelSearch.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\Search\\HopDongViewModelSearch.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\Search\\HopDongViewModelSearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HoaDonModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\HoaDonModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\HoaDonModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\HoaDonModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\HoaDonModelView.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\KhachHang.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\KhachHang.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\KhachHang.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\KhachHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAACBjwCEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\NhanVien.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\NhanVien.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\NhanVien.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\NhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBpwCIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "appusers.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\admin\\appusers\\appusers.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\admin\\appusers\\appusers.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\admin\\appusers\\appusers.js",
+              "RelativeToolTip": "TECH\\wwwroot\\admin\\appusers\\appusers.js",
+              "ViewState": "AQIAAA4AAAAAAAAAAECFwEkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T14:19:25.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "extension-table.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\share\\extension-table.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\share\\extension-table.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\share\\extension-table.js",
+              "RelativeToolTip": "TECH\\wwwroot\\share\\extension-table.js",
+              "ViewState": "AQIAABEAAAAAAAAAAHCIwBMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T14:19:25.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "tedu.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\share\\tedu.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\share\\tedu.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\share\\tedu.js",
+              "RelativeToolTip": "TECH\\wwwroot\\share\\tedu.js",
+              "ViewState": "AQIAAFwAAAAAAAAAAHCIwIoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T14:19:25.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "home.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\website\\js\\home.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\website\\js\\home.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\website\\js\\home.js",
+              "RelativeToolTip": "TECH\\wwwroot\\website\\js\\home.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T14:19:25.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "OrdersModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\OrdersModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\OrdersModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\OrdersModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\OrdersModelView.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwCgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "HoaDonRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\HoaDonRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\HoaDonRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\HoaDonRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\HoaDonRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ChangePassWord.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\NhanVien\\ChangePassWord.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\NhanVien\\ChangePassWord.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\NhanVien\\ChangePassWord.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\NhanVien\\ChangePassWord.cshtml",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswIoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:25.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AddOrUpdate.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\NhanVien\\AddOrUpdate.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\NhanVien\\AddOrUpdate.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\NhanVien\\AddOrUpdate.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\NhanVien\\AddOrUpdate.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwD4AAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:25.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "KhachHangRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\KhachHangRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\KhachHangRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\KhachHangRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\KhachHangRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "HopDongRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\HopDongRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\HopDongRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\HopDongRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\HopDongRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:25.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ViewDetail.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\NhanVien\\ViewDetail.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\NhanVien\\ViewDetail.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Views\\NhanVien\\ViewDetail.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\NhanVien\\ViewDetail.cshtml",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAswLIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T14:19:25.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "LoiPhamModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\LoiPhamModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\LoiPhamModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\LoiPhamModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\LoiPhamModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:26.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ChiTietHoaDonModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\ChiTietHoaDonModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\ChiTietHoaDonModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\ChiTietHoaDonModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\ChiTietHoaDonModelView.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAArwBUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:26.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LoiPham.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\LoiPham.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\LoiPham.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\LoiPham.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\LoiPham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:26.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "LoiPhamRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\LoiPhamRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\LoiPhamRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\LoiPhamRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\LoiPhamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:26.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ChiTietHoaDonRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\ChiTietHoaDonRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\ChiTietHoaDonRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\ChiTietHoaDonRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\ChiTietHoaDonRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:26.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ThanhVienPhongModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\ThanhVienPhongModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\ThanhVienPhongModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Areas\\Admin\\Models\\ThanhVienPhongModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\ThanhVienPhongModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:26.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "DichVuPhong.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\DichVuPhong.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\DichVuPhong.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Data\\DatabaseEntity\\DichVuPhong.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\DichVuPhong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:26.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DichVuPhongRepository.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\DichVuPhongRepository.cs",
+              "RelativeDocumentMoniker": "TECH\\Reponsitory\\DichVuPhongRepository.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\Reponsitory\\DichVuPhongRepository.cs",
+              "RelativeToolTip": "TECH\\Reponsitory\\DichVuPhongRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:19:26.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "nhanvien.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\admin\\nhanvien\\nhanvien.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\admin\\nhanvien\\nhanvien.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ki Tuc Xa\\TECH\\TECH\\wwwroot\\admin\\nhanvien\\nhanvien.js",
+              "RelativeToolTip": "TECH\\wwwroot\\admin\\nhanvien\\nhanvien.js",
+              "ViewState": "AQIAAOsCAAAAAAAAAAAMwPsCAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T14:19:26.086Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
