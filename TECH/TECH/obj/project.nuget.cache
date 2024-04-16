@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GEOpw8MEpUsmEDu99kFsK/LS6Rdk60MiTkTXo/86qTGrgXNNo49OEkq8ad7K0FUvP9z9laZyYHKxcU+yVUW/CQ==",
+  "dgSpecHash": "sMpHxyAucgbtn5xDEUfXTvvD31esUsTUQKQPqPSIFemUx8KPUpIwsuVckkdfgjmvlEbWRajEblPK3g9ZAjeMZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Microsoft Windows\\Downloads\\Ki Tuc Xa\\TECH\\TECH\\TECH.csproj",
+  "projectFilePath": "C:\\Users\\Microsoft Windows\\Downloads\\TECH\\TECH\\TECH\\TECH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Microsoft Windows\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Microsoft Windows\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

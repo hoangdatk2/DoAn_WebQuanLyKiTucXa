@@ -1,7 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Http
 @using Newtonsoft.Json
 @using TECH.Areas.Admin.Models
-@* @{
+@{
     var userString = Context.Session.GetString("UserInfor");
     var user = new UserMapModelView();
     int isLogin = 0;
@@ -14,7 +14,7 @@
         }
         
     }
-} *@
+}
 
 
 <!DOCTYPE html>
@@ -111,10 +111,10 @@
                     <div class="card-body" style="padding-bottom:0px;margin-bottom:0px">
                         <div class="d-flex align-items-center" style="justify-content: space-around">
                             <div class="ms-3 name">
-                              @*   <h5 class="font-bold text-center">@user?.Ten</h5>
-                                <h6 class="text-muted mb-0 text-center">@user?.Email</h6> *@
-                                <h5 class="font-bold text-center">Trần Hoàng Đạt</h5>
-                                <h6 class="text-muted mb-0 text-center">dat@gmail.com</h6>
+                                <h5 class="font-bold text-center">@user?.Ten</h5>
+                                <h6 class="text-muted mb-0 text-center">@user?.Email</h6>
+                              @*  <h5 class="font-bold text-center">Lê Xuân Hải</h5>
+                                <h6 class="text-muted mb-0 text-center">lexuanhai@gmail.com</h6>*@
 
                             </div>
                         </div>
@@ -138,20 +138,25 @@
                                 <span>Nhân viên</span>
                             </a>
                         </li>
+                       @*  <li class="sidebar-item quan-ly-dich-vu">
+                            <a href="/admin/quan-ly-the" class='sidebar-link'>
+                                <i class="fa-solid fa-gears"></i>
+                                <span>Quản Lý Thẻ</span>
+                            </a>
+                        </li> *@
 
-                       @*  <li class="sidebar-item quan-ly-khach-hang">
+                        <li class="sidebar-item quan-ly-khach-hang">
                             <a href="/admin/quan-ly-khach-hang" class='sidebar-link'>
                                 <i class="fa-solid fa-users"></i>
-                                <span>Khách hàng</span>
+                                <span>Sinh Viên</span>
                             </a>
                         </li>
-                        <li class="sidebar-item quan-ly-dich-vu">
+                        @* <li class="sidebar-item quan-ly-dich-vu">
                             <a href="/admin/quan-ly-dich-vu" class='sidebar-link'>
                                 <i class="fa-solid fa-gears"></i>
                                 <span>Dịch Vụ</span>
                             </a>
                         </li>
-
 
                         <li class="sidebar-item quan-ly-nha">
                             <a href="/admin/quan-ly-nha" class='sidebar-link'>
@@ -165,7 +170,6 @@
                                 <i class="fa-solid fa-person-shelter"></i>
                                 <span style="margin-left: 12px;">Phòng</span>
                             </a>
-                          
                         </li>
                         <li class="sidebar-item quan-ly-hop-dong">
                             <a href="/admin/quan-ly-hop-dong" class='sidebar-link'>
@@ -178,16 +182,12 @@
                                 <i class="fa-solid fa-file-invoice-dollar"></i>
                                 <span>Hóa đơn thanh toán</span>
                             </a>
-                        </li>
-                        <li class="sidebar-item quan-ly-bao-cao">
-                            <a href="/admin/quan-ly-bao-cao" class='sidebar-link'>
-                                <i class="fa-regular fa-rectangle-list"></i>
-                                <span>Báo cáo</span>
-                            </a>
-                        </li>
-                        *@
+                        </li> *@
 
-                       @*  <hr>
+
+
+
+                        <hr/>
 
 
                         <li class="sidebar-item thong-tin-ca-nhan">
@@ -209,7 +209,7 @@
                                 <i class="bi bi-box-arrow-in-right"></i>
                                 <span>Đăng xuất</span>
                             </a>
-                        </li> *@
+                        </li>
                     </ul>
                 </div>
                 <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
@@ -263,7 +263,9 @@
 <script src="~/admin/plugins/chart.js/chart.min.js"></script>
      <script type="text/javascript">
     $(document).ready(function () {
-      
+        // if (@isLogin != 1) {
+        //     window.location.replace("/");
+        // }
         var urlWindow = window.location.pathname;
         if(urlWindow.indexOf("admin") != -1){
             var split = urlWindow.split('admin');

@@ -68,7 +68,7 @@
                                 <div class="stats-icon red"><i class="iconly-boldBookmark"></i></div>
                             </div>
                             <div class="col-md-8">
-                                <h6 class="text-muted font-semibold">Khách hàng</h6>
+                                <h6 class="text-muted font-semibold">Sinh viên</h6>
                                 <h6 class="font-extrabold mb-0">@Model.KhachHangCount</h6>
                             </div>
                         </div>
@@ -82,12 +82,27 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-md-8">
+                                @*<h4>Thống kê số lượng đơn hàng</h4>*@
                             </div>
+                            @*<div class="col-md-4">
+                                <button class="btn btn-primary btn-right"><i class="bi bi-arrow-repeat"></i></button> <button title="Tải xuống tệp Excel" class="btn btn-dark btn-right"><i class="bi bi-box-arrow-in-down"></i></button>
+                                <div class="form-group">
+                                    <select name="" id="" class="select-right form-select">
+                                        <option value="" disabled="disabled" selected="selected">Lọc theo thời gian</option>
+                                        <option value="1">Lọc theo ngày</option>
+                                        <option value="2">Lọc theo tháng</option>
+                                        <option value="3">Lọc theo năm</option>
+                                    </select>
+                                </div>
+
+                            </div>*@
                         </div>
                     </div>
 
                     <div class="card-body">
-                        @* <div id="chart"></div> *@
+                        <div id="chart"></div>
+                        @*<canvas id="barChart"></canvas>*@
+                        @*<div id="chartContainer" style="height: 370px; width: 100%;"></div>*@
                     </div>
 
                 </div>

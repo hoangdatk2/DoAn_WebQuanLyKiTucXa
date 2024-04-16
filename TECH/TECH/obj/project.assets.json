@@ -10749,11 +10749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Microsoft Windows\\Downloads\\Ki Tuc Xa\\TECH\\TECH\\TECH.csproj",
+      "projectUniqueName": "C:\\Users\\Microsoft Windows\\Downloads\\TECH\\TECH\\TECH\\TECH.csproj",
       "projectName": "TECH",
-      "projectPath": "C:\\Users\\Microsoft Windows\\Downloads\\Ki Tuc Xa\\TECH\\TECH\\TECH.csproj",
+      "projectPath": "C:\\Users\\Microsoft Windows\\Downloads\\TECH\\TECH\\TECH\\TECH.csproj",
       "packagesPath": "C:\\Users\\Microsoft Windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Microsoft Windows\\Downloads\\Ki Tuc Xa\\TECH\\TECH\\obj\\",
+      "outputPath": "C:\\Users\\Microsoft Windows\\Downloads\\TECH\\TECH\\TECH\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12,16 +12,14 @@ namespace TECH.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        //private readonly IPhongService _phongService;
-        //private readonly INhaService _nhaService;
-        //private readonly IDichVuService _dichVuService;
-        public HomeController(
-            //IPhongService phongService, INhaService nhaService, IDichVuService dichVuService
-            )
+        private readonly IPhongService _phongService;
+        private readonly INhaService _nhaService;
+        private readonly IDichVuService _dichVuService;
+        public HomeController(IPhongService phongService, INhaService nhaService, IDichVuService dichVuService)
         {
-            //_phongService = phongService;
-            //_nhaService = nhaService;
-            //_dichVuService = dichVuService;
+            _phongService = phongService;
+            _nhaService = nhaService;
+            _dichVuService = dichVuService;
         }
 
         public IActionResult Index()

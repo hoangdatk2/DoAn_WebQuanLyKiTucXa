@@ -35,7 +35,7 @@
     <!-- UIkit CSS -->
     @*<link rel="stylesheet" href="/website/plugins/uikit/uikit.min.css" />*@
 
-    <title>Phòng trọ</title>
+    <title>Kí Túc Xã</title>
     @RenderSection("Styles", required: false)
      <style>
         /*#header {
@@ -55,8 +55,9 @@
         }
         .banner {
             /*background: #fff;*/
-            background: #cd1818;
+            /*background: #cd1818;*/
             /*border-bottom: 1px solid #fff;*/
+            background: #6aaad3;
             min-height: 95px;
             position: relative;
         }
@@ -66,17 +67,18 @@
         .min-wrap {
             /*width: 1200px;*/
             margin: 0 auto;
-            background: #252525;
+            /*background: #252525;*/
+                background: #0d4e96;
         }
         .logo {
             float: left;
         }
         .logo img {
-            height: 99px !important;
-    padding: 15px 0;
-    width: 120px;
+            /*height: 99px !important;*/
+        padding: 0px 0;
+    /*width: 120px;*/
     position: relative;
-    top: -4px;
+                top: 20px;
         }
         .user-head {
             float: right;
@@ -94,9 +96,10 @@
             float: left;
             text-transform: capitalize;
             /*color:black;*/
-            color:#fff;
-            position: relative;
-            z-index: 10000;
+               padding: 0 5px;
+    font-size: 15px;
+    color: #0d4e96;
+    font-weight: bold;
         }
         ul.ul-user-head>li>a {
             /*color: black;*/
@@ -127,7 +130,7 @@
         .search-Head {
             position: absolute;
             top: 28px;
-            left: 330px;
+            left: 384px;
             height: 38px;
             z-index: 9999;
         }
@@ -349,7 +352,7 @@
                   <div class="min-wrap">
                      <span class="logo">
                      <a href="/">
-                     <img loading="lazy" class=" ls-is-cached lazyloaded" src="~/image-default/anh-nha.png" alt="" height="60">
+                     <img loading="lazy" class=" ls-is-cached lazyloaded" src="~/image-side/logo-ngang.png" alt="" height="60">
                      </a>
                      </span>
                      <div class="user-head">
@@ -379,8 +382,8 @@
                                                     </a>
                                                         <div aria-labelledby="dropdown04" class="dropdown-menu" style="left: -45px;">
                                                       <a href="/thong-tin-ca-nhan" class="dropdown-item">Thông tin cá nhân</a>
-                                        <a href="/hop-dong" class="dropdown-item">Đơn Thuê Phòng</a>
-                                                        <a href="/hoa-don-user" class="dropdown-item">Hóa đơn hàng tháng</a>
+                                        @*<a href="/hop-dong" class="dropdown-item">Đơn Thuê Phòng</a>
+                                                        <a href="/hoa-don-user" class="dropdown-item">Hóa đơn hàng tháng</a>*@
                                                         @*<a href="/doi-mat-khau" class="dropdown-item">Đổi mật khẩu</a>*@
                                                         <a href="/dang-xuat" class="dropdown-item">Đăng xuất</a>
                                                     </div>
@@ -420,7 +423,7 @@
                         <span class="sH1">Tìm nhanh</span>
                         <div class="sH2">
                             <input id="tukhoa_in" style="color:unset !important;border: 1px solid #ddd;" autocomplete="off" class="ipt-sH txt-search tukhoatimkiem" type="text" placeholder="Bạn muốn tìm phòng hôm nay..!" name="tukhoa" value="">                           
-                            <button class="btn-sH btn-search-stl" type="button" style="outline: none;background-color: #333 !important"> <i class="fa fa-search" style="color: #fff;font-size: 22px;"></i></button>                            
+                            <button class="btn-sH btn-search-stl" type="button" style="outline: none;background-color: #0d4e96 !important"> <i class="fa fa-search" style="color: #fff;font-size: 22px;"></i></button>                            
                         </div>
                         <div id="show_key_val" class="form-sn" style="display:none;">
                            <div class="frame-fsn">
@@ -444,9 +447,15 @@
                                 @await Component.InvokeAsync("CategoryMenuComponent")
                             </ul>
                         </li>
-                        <li>
-                            <a href="/lien-he-voi-chung-toi" style="font-weight:bold">Liên Hệ</a>
+                         <li>
+                            <a href="/" style="font-weight:bold">Giới Thiệu</a>
                         </li>
+                         <li>
+                            <a href="/" style="font-weight:bold">Sửa Chữa</a>
+                        </li>
+                       @* <li>
+                            <a href="/lien-he-voi-chung-toi" style="font-weight:bold">Liên Hệ</a>
+                        </li>*@
                         @*<li>
                             <a href="/bai-viet" style="font-weight:bold">Bài Viết</a>
                         </li>*@
@@ -466,6 +475,11 @@
         .custom-footer h2{
             font-size: 22px;
         }
+        .custom-footer{
+            padding: 30px 0 0;
+            background: url('/image-side/footer.png') #0d4e96 no-repeat center !important;
+            position: relative;
+        }
     </style>
     <footer class="ftco-footer bg-dark ftco-section custom-footer" style="margin-top: 30px;    padding-top: 30px;">
     <div class="container">
@@ -479,9 +493,8 @@
         <div class="row mb-5" style=" margin-bottom: 0px !important;">
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2" style="color: #fff; font-weight: bold">PHÒNG TRỌ</h2>
-                    <p style="color: #fff">Chuyên về các giày mới. Chúng tôi luôn mang cho bạn những dòng
-                        sản phẩm chất lượng nhất.</p>
+                    <h2 class="ftco-heading-2" style="color: #fff; font-weight: bold">KÍ TÚC XÃ</h2>
+                    <p style="color: #fff">Ký túc xá Trường Đại học Công Nghiệp Hà Nội là lựa chọn số 1 cho rất nhiều bạn sinh viên năm nhất sau khi nhận được giấy báo trúng tuyển Đại Học</p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span class="icon-twitter"></span></a></li>
                         <li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -508,7 +521,7 @@
                             <li style="margin-bottom: 7px;">
                                 <a href="#">
                                     <img src="/image-default/lien-he-nha.png" style="width: 25px;height: 25px;"/>
-                                    <span class="text" style="color: #fff">Địa Chỉ: Số 39A - Hùng Vương - Phường 5- Thành Phố - Cà Mau</span>
+                                    <span class="text" style="color: #fff">Địa Chỉ: Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội.</span>
                                 </a>
                             </li>
                             <li style="margin-bottom: 7px;">
@@ -526,12 +539,12 @@
                             <li style="margin-bottom: 7px;">
                                 <a href="">
                                    <img src="/image-default/face-book.png"style="width: 25px;height: 25px;"/>
-                                    <span class="text" style="color: #fff">Facebook: (link..) trọ cà mau</span>
+                                    <span class="text" style="color: #fff">Facebook: (link..) kí túc xã</span>
                                 </a>
                             </li>
                             <li style="margin-bottom: 7px;"><a href="#">
                                    <img src="/image-default/email.png" style="width: 25px;height: 25px;"/>
-                                    <span class="text" style="color: #fff">Gmail: Nhatrocmu.com.vn</span>
+                                    <span class="text" style="color: #fff">Gmail: kitucxadhcn.com.vn</span>
                                 </a>
                             </li>
                             <hr>

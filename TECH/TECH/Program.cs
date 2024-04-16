@@ -40,9 +40,23 @@ builder.Services.AddScoped<IThanhPhoRepository, ThanhPhoRepository>();
 builder.Services.AddScoped<IQuanHuyenRepository, QuanHuyenRepository>();
 builder.Services.AddScoped<IDichVuPhongRepository, DichVuPhongRepository>();
 builder.Services.AddScoped<IThanhVienPhongRepository, ThanhVienPhongRepository>();
+builder.Services.AddScoped<ITheKiTucXaRepository, TheKiTucXaRepository>();
 
-
+builder.Services.AddScoped<ITheKiTucXaService, TheKiTucXaService>();
+builder.Services.AddScoped<ILoiPhamService, LoiPhamService>();
+builder.Services.AddScoped<IChiTietHoaDonService, ChiTietHoaDonService>();
+builder.Services.AddScoped<IThanhVienPhongService, ThanhVienPhongService>();
+builder.Services.AddScoped<IDichVuPhongService, DichVuPhongService>();
+builder.Services.AddScoped<IHoaDonService, HoaDonService>();
+builder.Services.AddScoped<IHopDongService, HopDongService>();
+builder.Services.AddScoped<IPhongService, PhongService>();
+builder.Services.AddScoped<INhaService, NhaService>();
+builder.Services.AddScoped<IDichVuService, DichVuService>();
 builder.Services.AddScoped<INhanVienService, NhanVienService>();
+builder.Services.AddScoped<IKhachHangService, KhachHangService>();
+builder.Services.AddScoped<IThanhPhoService, ThanhPhoService>();
+builder.Services.AddScoped<IQuanHuyenService, QuanHuyenService>();
+builder.Services.AddScoped<IPhuongXaService, PhuongXaService>();
 
 //builder.Services.AddMemoryCache();
 
@@ -70,8 +84,10 @@ app.UseEndpoints(endpoints =>
     endpoints.MapAreaControllerRoute(
      name: "TrangQuanTri",
      areaName: "Admin",
-     pattern: "admin",
+     pattern: "default",
      defaults: new { controller = "Home", action = "Index" });
+
+  
 
     endpoints.MapAreaControllerRoute(
      name: "NhanVien",
