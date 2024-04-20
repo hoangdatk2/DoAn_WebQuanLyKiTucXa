@@ -263,9 +263,9 @@
 <script src="~/admin/plugins/chart.js/chart.min.js"></script>
      <script type="text/javascript">
     $(document).ready(function () {
-        // if (@isLogin != 1) {
-        //     window.location.replace("/");
-        // }
+        if (@isLogin != 1) {
+            window.location.replace("/");
+        }
         var urlWindow = window.location.pathname;
         if(urlWindow.indexOf("admin") != -1){
             var split = urlWindow.split('admin');

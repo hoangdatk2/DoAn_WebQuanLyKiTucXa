@@ -24,64 +24,64 @@ namespace TECH.Controllers
 
         public IActionResult Index()
         {
-            return Redirect("/admin/home");
-            //PhongViewModelSearch phongViewModelSearch = new PhongViewModelSearch();
-            //phongViewModelSearch.PageIndex = 1;
-            //phongViewModelSearch.PageSize = 200;
-            ////phongViewModelSearch.status = 1;
-            //var data = _phongService.GetAllPaging(phongViewModelSearch);
-            //if (data != null && data.Results != null && data.Results.Count > 0)
-            //{
-            //    foreach (var item in data.Results)
-            //    {
-            //        if (item.MaNha.HasValue && item.MaNha.Value > 0)
-            //        {
-            //            var nha = _nhaService.GetByid(item.MaNha.Value);
-            //            if (nha != null && !string.IsNullOrEmpty(nha.TenNha))
-            //            {
-            //                item.TenNha = nha.TenNha;
-            //            }
-            //            if (item.LoaiPhong.HasValue)
-            //            {
-            //                item.LoaiPhongStr = Common.GetLoaiPhong(item.LoaiPhong.Value);
-            //            }
-            //            if (item.TinhTrang.HasValue)
-            //            {
-            //                item.TinhTrangStr = Common.GetTinhTrangPhong(item.TinhTrang.Value);
-            //            }
-            //        }
-            //        else
-            //        {
-            //            item.TenNha = "";
-            //        }
-            //    }
-            //    if (phongViewModelSearch != null && !string.IsNullOrEmpty(phongViewModelSearch.name))
-            //    {
-            //        data.Results = data.Results.Where(p => p.TenNha.Contains(phongViewModelSearch.name) ||
-            //        p.TenPhong.Contains(phongViewModelSearch.name) ||
-            //        p.TinhTrangStr.Contains(phongViewModelSearch.name)).ToList();
-            //    }
-            //    if (phongViewModelSearch.status > 0)
-            //    {
-            //        if (phongViewModelSearch.status == 1)
-            //        {
-            //            data.Results = data.Results.Where(p => p.TinhTrang == phongViewModelSearch.status).ToList();
-            //        }
-            //        else
-            //        {
-            //            data.Results = data.Results.Where(p => p.TinhTrang != 1).ToList();
-            //        }
+            //return Redirect("/admin/home");
+            PhongViewModelSearch phongViewModelSearch = new PhongViewModelSearch();
+            phongViewModelSearch.PageIndex = 1;
+            phongViewModelSearch.PageSize = 200;
+            //phongViewModelSearch.status = 1;
+            var data = _phongService.GetAllPaging(phongViewModelSearch);
+            if (data != null && data.Results != null && data.Results.Count > 0)
+            {
+                foreach (var item in data.Results)
+                {
+                    if (item.MaNha.HasValue && item.MaNha.Value > 0)
+                    {
+                        var nha = _nhaService.GetByid(item.MaNha.Value);
+                        if (nha != null && !string.IsNullOrEmpty(nha.TenNha))
+                        {
+                            item.TenNha = nha.TenNha;
+                        }
+                        if (item.LoaiPhong.HasValue)
+                        {
+                            item.LoaiPhongStr = Common.GetLoaiPhong(item.LoaiPhong.Value);
+                        }
+                        if (item.TinhTrang.HasValue)
+                        {
+                            item.TinhTrangStr = Common.GetTinhTrangPhong(item.TinhTrang.Value);
+                        }
+                    }
+                    else
+                    {
+                        item.TenNha = "";
+                    }
+                }
+                if (phongViewModelSearch != null && !string.IsNullOrEmpty(phongViewModelSearch.name))
+                {
+                    data.Results = data.Results.Where(p => p.TenNha.Contains(phongViewModelSearch.name) ||
+                    p.TenPhong.Contains(phongViewModelSearch.name) ||
+                    p.TinhTrangStr.Contains(phongViewModelSearch.name)).ToList();
+                }
+                if (phongViewModelSearch.status > 0)
+                {
+                    if (phongViewModelSearch.status == 1)
+                    {
+                        data.Results = data.Results.Where(p => p.TinhTrang == phongViewModelSearch.status).ToList();
+                    }
+                    else
+                    {
+                        data.Results = data.Results.Where(p => p.TinhTrang != 1).ToList();
+                    }
 
-            //    }
-            //}
-            //var dataPhong = data.Results.GroupBy(p=>p.TenNha).ToDictionary(p=>p.Key, p=>p.ToList());
-            //var danhsachdichvu = _dichVuService.GetAll();
-            //var homeModelView = new HomeModelViewCustomer
-            //{
-            //    PhongModelViews = dataPhong,
-            //    DichVus = danhsachdichvu
-            //};
-            //return View(homeModelView);
+                }
+            }
+            var dataPhong = data.Results.GroupBy(p => p.TenNha).ToDictionary(p => p.Key, p => p.ToList());
+            var danhsachdichvu = _dichVuService.GetAll();
+            var homeModelView = new HomeModelViewCustomer
+            {
+                PhongModelViews = dataPhong,
+                DichVus = danhsachdichvu
+            };
+            return View(homeModelView);
         }
 
         public IActionResult Privacy()

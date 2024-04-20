@@ -9,305 +9,307 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TECH
 build_property.RootNamespace = TECH
-build_property.ProjectDir = C:\Users\Microsoft Windows\Downloads\TECH\TECH\TECH\
+build_property.ProjectDir = D:\Hoc-Tap\Đồ Án\Ki Tuc Xa\New folder\TECH\TECH\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Microsoft Windows\Downloads\TECH\TECH\TECH
+build_property.MSBuildProjectDirectory = D:\Hoc-Tap\Đồ Án\Ki Tuc Xa\New folder\TECH\TECH
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/AddLoiPham.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/AddLoiPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhvYURvblxBZGRMb2lQaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhvYURvblxBZGRPclVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhvYURvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/OrderDetail.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/OrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhvYURvblxPcmRlckRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/ViewDichVu.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/ChiTietHoaDon/ViewDichVu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhvYURvblxWaWV3RGljaFZ1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/DichVu/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/DichVu/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGljaFZ1XEFkZE9yVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/DichVu/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/DichVu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGljaFZ1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/HoaDon/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/HoaDon/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXEFkZE9yVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/HoaDon/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/HoaDon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/HoaDon/OrderDetail.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/HoaDon/OrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXE9yZGVyRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/HoaDon/PayBill.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/HoaDon/PayBill.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXFBheUJpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Home/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Home/Privacy.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/HopDong/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/HopDong/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9wRG9uZ1xBZGRPclVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/HopDong/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/HopDong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9wRG9uZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/KhachHang/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/KhachHang/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hIYW5nXEFkZE9yVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/KhachHang/ChangePassWord.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/KhachHang/ChangePassWord.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hIYW5nXENoYW5nZVBhc3NXb3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/KhachHang/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/KhachHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hIYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/KhachHang/ViewDetail.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/KhachHang/ViewDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hIYW5nXFZpZXdEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/NhanVien/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/NhanVien/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cQWRkT3JVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/NhanVien/ChangePassWord.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/NhanVien/ChangePassWord.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cQ2hhbmdlUGFzc1dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/NhanVien/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/NhanVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/NhanVien/ViewDetail.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/NhanVien/ViewDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cVmlld0RldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Nha/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Nha/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhXEFkZE9yVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Nha/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Nha/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Phong/AddDichVu.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Phong/AddDichVu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcQWRkRGljaFZ1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Phong/AddFast.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Phong/AddFast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcQWRkRmFzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Phong/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Phong/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcQWRkT3JVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Phong/AddThanhVien.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Phong/AddThanhVien.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcQWRkVGhhbmhWaWVuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Phong/AddView.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Phong/AddView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcQWRkVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Phong/BaoCao.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Phong/BaoCao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcQmFvQ2FvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Phong/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Phong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Phong/ViewDetail.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Phong/ViewDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcVmlld0RldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Shared/Error.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/TheKiTucXa/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/TheKiTucXa/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhlS2lUdWNYYVxBZGRPclVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/TheKiTucXa/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/TheKiTucXa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhlS2lUdWNYYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/ChiTietHoaDon/AddLoiPham.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/ChiTietHoaDon/AddLoiPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvblxBZGRMb2lQaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/ChiTietHoaDon/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/ChiTietHoaDon/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvblxBZGRPclVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/ChiTietHoaDon/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/ChiTietHoaDon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/ChiTietHoaDon/OrderDetail.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/ChiTietHoaDon/OrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvblxPcmRlckRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/ChiTietHoaDon/ViewDichVu.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/ChiTietHoaDon/ViewDichVu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldEhvYURvblxWaWV3RGljaFZ1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/HoaDon/AddOrUpdate.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/HoaDon/AddOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uXEFkZE9yVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/HoaDon/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/HoaDon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/HoaDon/OrderDetail.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/HoaDon/OrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uXE9yZGVyRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/HoaDon/PayBill.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/HoaDon/PayBill.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uXFBheUJpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Home/About.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Home/Contact.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Home/DieuKhoanSuDung.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Home/DieuKhoanSuDung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaWV1S2hvYW5TdUR1bmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Home/GiaiQuyetKhieuNai.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Home/GiaiQuyetKhieuNai.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHaWFpUXV5ZXRLaGlldU5haS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Home/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Home/Privacy.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Home/ThanhToan.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Home/ThanhToan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFuaFRvYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/HopDong/Index.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/HopDong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Phong/AddUserPhong.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Phong/AddUserPhong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcQWRkVXNlclBob25nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Phong/PhongCategory.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Phong/PhongCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcUGhvbmdDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Phong/PhongDetail.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Phong/PhongDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcUGhvbmdEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Phong/ProductSearch.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Phong/ProductSearch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcUHJvZHVjdFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Shared/Components/CategoryMenuComponent/Default.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Shared/Components/CategoryMenuComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlNZW51Q29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Shared/Error.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Users/Accuracy.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Users/Accuracy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQWNjdXJhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Users/ChangeNewPassWord.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Users/ChangeNewPassWord.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ2hhbmdlTmV3UGFzc1dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Users/ChangePass.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Users/ChangePass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ2hhbmdlUGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Users/ForgotPassword.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Users/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Users/Login.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Users/Profile.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Users/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Users/Register.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Users/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/_ViewImports.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/_ViewStart.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Areas/Admin/Views/Shared/_Layout.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gsdcyvly8i
 
-[C:/Users/Microsoft Windows/Downloads/TECH/TECH/TECH/Views/Shared/_Layout.cshtml]
+[D:/Hoc-Tap/Đồ Án/Ki Tuc Xa/New folder/TECH/TECH/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6m49535ukc
