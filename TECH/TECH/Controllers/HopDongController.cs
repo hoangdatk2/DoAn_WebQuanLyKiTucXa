@@ -6,6 +6,7 @@ using TECH.Service;
 using System.Text.RegularExpressions;
 using TECH.General;
 using Newtonsoft.Json;
+using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 
 namespace TECH.Controllers
 {
@@ -48,11 +49,15 @@ namespace TECH.Controllers
                 user = JsonConvert.DeserializeObject<UserMapModelView>(userString);
                 HopDongViewModelSearch phongViewModelSearch = new HopDongViewModelSearch()
                 {
-                    PageSize = 1,
+                    PageSize = 200,
                     PageIndex = 1,
                     maKH = user?.Id
                 };
                 var data = _hopDongService.GetAllPaging(phongViewModelSearch);
+                if (data != null && data.Results != null && data.Results.Count > 0)
+                {
+                    data.Results = data.Results.Where(p=>p.IsDeteled == false || p.IsDeteled == null).ToList();
+                }
                 foreach (var item in data.Results)
                 {
                     if (item.MaNha.HasValue && item.MaNha.Value > 0)

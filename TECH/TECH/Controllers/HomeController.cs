@@ -24,7 +24,6 @@ namespace TECH.Controllers
 
         public IActionResult Index()
         {
-            //return Redirect("/admin/home");
             PhongViewModelSearch phongViewModelSearch = new PhongViewModelSearch();
             phongViewModelSearch.PageIndex = 1;
             phongViewModelSearch.PageSize = 200;
@@ -74,7 +73,7 @@ namespace TECH.Controllers
 
                 }
             }
-            var dataPhong = data.Results.GroupBy(p => p.TenNha).ToDictionary(p => p.Key, p => p.ToList());
+            var dataPhong = data.Results.GroupBy(p=>p.TenNha).ToDictionary(p=>p.Key, p=>p.ToList());
             var danhsachdichvu = _dichVuService.GetAll();
             var homeModelView = new HomeModelViewCustomer
             {

@@ -18,6 +18,7 @@
     @* <link rel="stylesheet" href="/website/plugins/bootstrap/bootstrap.min.css">*@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link href="~/public-custom/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/admin/vendors/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="/website/plugins/animate/animate.min.css">
     <link rel="stylesheet" href="/website/plugins/fontawesome/all.css">
     <link rel="stylesheet" href="/website/plugins/webfonts/font.css">
@@ -79,6 +80,22 @@
     /*width: 120px;*/
     position: relative;
                 top: 20px;
+        }
+        .content-box{
+                padding-top: 40px;
+    font-size: 16px;
+        }
+
+        .pTitle {
+            font-size: 22px;
+            line-height: 28px;
+            margin-bottom: 2px;
+            margin-top: 10px;
+            padding-bottom: 20px;
+            color: #1f4e97;
+            border-bottom: 1px solid #ccc;
+            font-weight: bold;
+            margin-bottom: 20px;
         }
         .user-head {
             float: right;
@@ -370,15 +387,22 @@
                                <li><a href="/gioi-thieu">Giới Thiệu</a></li>*@
                             @*<li>|</li>
                               <li><a href="/bai-viet">Bài Viết</a></li>*@
-                            @if (user != null && user.RoleUser == 1)
+                            @if (user != null && user.RoleUser == 3)
                             { 
-                                           
+                                              @*<li>|</li>*@
+                                              @*<li><a class="btn-dn" href="/gio-hang"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Giỏ hàng <span class="quantity-gio-hang"></span> </a></li>*@
+                                              @*<li><a class="btn-dn" href="/gio-hang"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Giỏ hàng</a></li>
+                                               <li>|</li>*@
                                                    <li class="nav-item dropdown">
                                                     <a href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
                                         @user.Ten
                                                     </a>
                                                         <div aria-labelledby="dropdown04" class="dropdown-menu" style="left: -45px;">
-                                      
+                                                      <a href="/thong-tin-ca-nhan" class="dropdown-item">Thông tin cá nhân</a>
+                                        <a href="/hop-dong" class="dropdown-item">Đơn Thuê Phòng</a>
+                                                        <a href="/hoa-don-user" class="dropdown-item">Hóa đơn hàng tháng</a>
+                                        <a href="/yeu-cau-sua-chua" class="dropdown-item">Yêu cầu sửa chữa</a>
+                                                        @*<a href="/doi-mat-khau" class="dropdown-item">Đổi mật khẩu</a>*@
                                                         <a href="/dang-xuat" class="dropdown-item">Đăng xuất</a>
                                                     </div>
                                                 </li>
@@ -442,11 +466,11 @@
                             </ul>
                         </li>
                          <li>
-                            <a href="/" style="font-weight:bold">Giới Thiệu</a>
+                            <a href="/gioi-thieu" style="font-weight:bold">Giới Thiệu</a>
                         </li>
-                         <li>
+                        @*<li>
                             <a href="/" style="font-weight:bold">Sửa Chữa</a>
-                        </li>
+                        </li>*@
                        @* <li>
                             <a href="/lien-he-voi-chung-toi" style="font-weight:bold">Liên Hệ</a>
                         </li>*@
@@ -487,7 +511,7 @@
         <div class="row mb-5" style=" margin-bottom: 0px !important;">
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2" style="color: #fff; font-weight: bold">KÍ TÚC XÃ</h2>
+                    <h2 class="ftco-heading-2" style="color: #fff; font-weight: bold">KÍ TÚC XÁ</h2>
                     <p style="color: #fff">Ký túc xá Trường Đại học Công Nghiệp Hà Nội là lựa chọn số 1 cho rất nhiều bạn sinh viên năm nhất sau khi nhận được giấy báo trúng tuyển Đại Học</p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span class="icon-twitter"></span></a></li>
@@ -598,6 +622,15 @@
   <script src="/website/js/home.js"></script>
   <script src="/website/js/script.js"></script>
     <script src="~/share/tedu.js"></script>
+    <script src="~/lib/bootbox/bootbox.all.js"></script>
+
+      <script src="/admin/plugins/notify.min.js"></script>
+     <script src="~/js/shared/shared.js"></script>
+     
+    <script src="~/admin/plugins/jquery.twbsPagination.min.js"></script>
+
+
+
     
   <script src="/website/plugins/uikit/uikit.min.js"></script>
   <script src="/website/plugins/uikit/uikit-icons.min.js"></script>

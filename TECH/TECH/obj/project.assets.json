@@ -10749,11 +10749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hoc-Tap\\Đồ Án\\Ki Tuc Xa\\New folder\\TECH\\TECH\\TECH.csproj",
+      "projectUniqueName": "D:\\Hoc-Tap\\Đồ Án\\Ki Tuc Xa\\Ki Tuc Xa-finaly\\TECH\\TECH\\TECH.csproj",
       "projectName": "TECH",
-      "projectPath": "D:\\Hoc-Tap\\Đồ Án\\Ki Tuc Xa\\New folder\\TECH\\TECH\\TECH.csproj",
+      "projectPath": "D:\\Hoc-Tap\\Đồ Án\\Ki Tuc Xa\\Ki Tuc Xa-finaly\\TECH\\TECH\\TECH.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Hoc-Tap\\Đồ Án\\Ki Tuc Xa\\New folder\\TECH\\TECH\\obj\\",
+      "outputPath": "D:\\Hoc-Tap\\Đồ Án\\Ki Tuc Xa\\Ki Tuc Xa-finaly\\TECH\\TECH\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

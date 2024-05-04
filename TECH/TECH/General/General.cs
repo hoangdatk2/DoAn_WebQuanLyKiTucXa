@@ -101,6 +101,27 @@ namespace TECH.General
             }
             return "Dịch vụ khác";
         }
+
+        public static string GetStatusSuaChua(int status)
+        {
+            
+            if (status == 1)
+            {
+                return "Chưa sửa";
+            }
+            if (status == 2)
+            {
+                return "Đang sửa";
+            }
+            if (status == 3)
+            {
+                return "Đã sửa";
+            }            
+            return "";
+        }
+
+
+
         public static string GetStatusStr(int staus)
         {
             if (staus == 1)

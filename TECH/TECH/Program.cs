@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using TECH.Data.DatabaseEntity;
 using TECH.Reponsitory;
 using TECH.Service;
@@ -41,7 +42,11 @@ builder.Services.AddScoped<IQuanHuyenRepository, QuanHuyenRepository>();
 builder.Services.AddScoped<IDichVuPhongRepository, DichVuPhongRepository>();
 builder.Services.AddScoped<IThanhVienPhongRepository, ThanhVienPhongRepository>();
 builder.Services.AddScoped<ITheKiTucXaRepository, TheKiTucXaRepository>();
+builder.Services.AddScoped<ITheSinhVienRepository, TheSinhVienRepository>();
+builder.Services.AddScoped<ISuaChuaRepository, SuaChuaRepository>();
 
+builder.Services.AddScoped<ISuaChuaService, SuaChuaService>();
+builder.Services.AddScoped<ITheSinhVienService, TheSinhVienService>();
 builder.Services.AddScoped<ITheKiTucXaService, TheKiTucXaService>();
 builder.Services.AddScoped<ILoiPhamService, LoiPhamService>();
 builder.Services.AddScoped<IChiTietHoaDonService, ChiTietHoaDonService>();
@@ -112,6 +117,21 @@ app.UseEndpoints(endpoints =>
     areaName: "Admin",
     pattern: "admin/quan-ly-nha",
     defaults: new { controller = "Nha", action = "Index" });
+
+    endpoints.MapAreaControllerRoute(
+    name: "TheSinhVien",
+    areaName: "Admin",
+    pattern: "admin/quan-ly-the",
+    defaults: new { controller = "TheSinhVien", action = "Index" });
+
+    endpoints.MapAreaControllerRoute(
+   name: "suachua",
+   areaName: "Admin",
+   pattern: "admin/sua-chua",
+   defaults: new { controller = "SuaChua", action = "Index" });
+
+
+
 
     endpoints.MapAreaControllerRoute(
     name: "Phong",
@@ -272,6 +292,12 @@ app.UseEndpoints(endpoints =>
       name: "DanhSachSanPhamW",
       pattern: "/nha/{*categoryId}",
       defaults: new { controller = "Phong", action = "PhongCategory" });
+
+
+    endpoints.MapControllerRoute(
+name: "suachuauser",
+pattern: "/yeu-cau-sua-chua",
+defaults: new { controller = "SuaChuaPhong", action = "Index" });
 
     endpoints.MapControllerRoute(
        name: "user",

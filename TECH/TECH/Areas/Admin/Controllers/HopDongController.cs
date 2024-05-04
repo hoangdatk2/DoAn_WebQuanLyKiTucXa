@@ -72,26 +72,26 @@ namespace TECH.Areas.Admin.Controllers
                 _phongService.UpdateTrangThai(HopDongModelView.MaPhong.Value,2); // đã thuê
                 if (HopDongModelView.MaKH.HasValue && HopDongModelView.MaKH.Value > 0)
                 {
-                    var khachHang = _khachHangService.GetByid(HopDongModelView.MaKH.Value);
-                    var phong = _phongService.GetByid(HopDongModelView.MaPhong.Value);
-                    if (khachHang != null && !string.IsNullOrEmpty(khachHang.Email))
-                    {
+                    //var khachHang = _khachHangService.GetByid(HopDongModelView.MaKH.Value);
+                    //var phong = _phongService.GetByid(HopDongModelView.MaPhong.Value);
+                    //if (khachHang != null && !string.IsNullOrEmpty(khachHang.Email))
+                    //{
 
-                        MailMessage mail = new MailMessage();
-                        mail.To.Add(khachHang.Email.Trim());
-                        mail.From = new MailAddress("emcuahai@gmail.com");
-                        mail.Subject = "Đặt Phòng";
-                        mail.Body = BodyHtmlMail(khachHang, HopDongModelView,phong);
-                        mail.IsBodyHtml = true;
-                        mail.Sender = new MailAddress("emcuahai@gmail.com");
-                        SmtpClient smtp = new SmtpClient();
-                        smtp.Port = 587;
-                        smtp.EnableSsl = true;
-                        smtp.UseDefaultCredentials = false;
-                        smtp.Host = "smtp.gmail.com";
-                        smtp.Credentials = new System.Net.NetworkCredential("emcuahai@gmail.com", "dyaxbedbjqybcssf");
-                        smtp.Send(mail);
-                    }
+                    //    MailMessage mail = new MailMessage();
+                    //    mail.To.Add(khachHang.Email.Trim());
+                    //    mail.From = new MailAddress("emcuahai@gmail.com");
+                    //    mail.Subject = "Đặt Phòng";
+                    //    mail.Body = BodyHtmlMail(khachHang, HopDongModelView,phong);
+                    //    mail.IsBodyHtml = true;
+                    //    mail.Sender = new MailAddress("emcuahai@gmail.com");
+                    //    SmtpClient smtp = new SmtpClient();
+                    //    smtp.Port = 587;
+                    //    smtp.EnableSsl = true;
+                    //    smtp.UseDefaultCredentials = false;
+                    //    smtp.Host = "smtp.gmail.com";
+                    //    smtp.Credentials = new System.Net.NetworkCredential("emcuahai@gmail.com", "dyaxbedbjqybcssf");
+                    //    smtp.Send(mail);
+                    //}
                 }                                                                // gửi gmail
                
             }
