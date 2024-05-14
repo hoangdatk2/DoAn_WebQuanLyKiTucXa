@@ -229,7 +229,8 @@
                                         }*@
                                         @if (!string.IsNullOrEmpty(item.TinhTrangStr))
                                         {
-                                            <div class="trang-thai-phong"><span>@item.TinhTrangStr</span></div>
+                                            @*<div class="trang-thai-phong"><span>@item.TinhTrangStr</span></div>*@
+                                            <div class="trang-thai-phong"><span> @(item.TinhTrang.HasValue && item.TinhTrang.Value > 0 && item.TinhTrang.Value == 2 ? item.SoLuongNguoiDangO + "/" + item.SLNguoiMax : "") @item.TinhTrangStr</span></div>
                                         }
                                         @if (!string.IsNullOrEmpty(item.LoaiPhongStr))
                                         {

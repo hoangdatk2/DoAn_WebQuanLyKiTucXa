@@ -73,8 +73,8 @@ namespace TECH.Controllers
                     }
                     return View(data.Results.ToList());
                 }                
-            }           
-            return Redirect("/");
+            }
+            return View();
         }      
 
         [HttpGet]

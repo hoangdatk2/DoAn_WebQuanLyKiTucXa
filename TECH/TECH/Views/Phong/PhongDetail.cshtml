@@ -304,9 +304,21 @@
                                             <span class="danh-muc-name" style="color:red"> @Model.DonGiaStr đ</span>
                                         </p>
                                         <p class="txt-title-danh-muc">
+                                            <span class="danh-muc-lable">Số người tối đa: </span>
+                                            <span class="danh-muc-name" style=""> @Model.SLNguoiMax</span>
+                                        </p>
+                                        @if (true)
+                                        {
+                                            <p class="txt-title-danh-muc">
+                                                <span class="danh-muc-lable">Số người đang ở: </span>
+                                                <span class="danh-muc-name" style=""> @Model.SoLuongNguoiDangO</span>
+                                            </p>
+                                        }
+                                       
+                                       @* <p class="txt-title-danh-muc">
                                             <span class="danh-muc-lable">Tình trạng: </span>
                                             <span class="danh-muc-name"> @Model.TinhTrangStr </span>
-                                        </p>
+                                        </p>*@
                                        @* @if (Model.SizesModelView != null && Model.SizesModelView.Count > 0)
                                         {
                                             int step = 0;
@@ -356,7 +368,7 @@
                                             </p>
 
                                         </div>*@
-                                        @if (Model.TinhTrang == 1)
+                                        @if (Model.SLNguoiMax != Model.SoLuongNguoiDangO)
                                         {
                                             <a href="javascript:void(0)" class="btn btn-black py-3 px-5 btn-block btn-add-cart" style="color: #fff;font-weight: bold;    margin-top: 50px;">
                                             ĐẶT PHÒNG <i class="ion-ios-add ml-1"></i>

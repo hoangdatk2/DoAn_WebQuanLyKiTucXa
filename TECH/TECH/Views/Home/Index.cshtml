@@ -379,7 +379,7 @@
                                                     <div class="images custom-image-status">
                                             @if (!string.IsNullOrEmpty(itemProduct.TinhTrangStr))
                                             {
-                                                <div class="trang-thai-phong"><span>@itemProduct.TinhTrangStr</span></div>
+                                                <div class="trang-thai-phong"><span> @(itemProduct.TinhTrang.HasValue && itemProduct.TinhTrang.Value > 0 && itemProduct.TinhTrang.Value ==2 ? itemProduct.SoLuongNguoiDangO +"/" + itemProduct.SLNguoiMax :"" ) @itemProduct.TinhTrangStr</span></div>
                                             }
                                              @if (!string.IsNullOrEmpty(itemProduct.LoaiPhongStr))
                                             {

@@ -50,7 +50,7 @@
         border: 1px solid #ddd;
             padding: 10px 12px;
         float: left;
-        height: 460px;
+        min-height: 460px;
     }
     .view-phong .btn-custom-eidt{
            width: 49%;
@@ -191,8 +191,10 @@
                                                                 <div class='image-phong-tro' style='background-image:url(@(!string.IsNullOrEmpty(@item.HinhAnh)?src:"/image-default/default.png"))'></div>
                                         <p class="custom-p">Chiều dài  : @item.ChieuDai</p>
                                         <p class="custom-p">Chiều rộng : @item.ChieuRong</p>
+                                       
                                         <p class="custom-p">Đơn giá    : @item.DonGiaStr</p>
                                         @*<p class="custom-p">SL người tối đa    : @item.SLNguoiMax</p>*@
+                                        <p class="custom-p">Số lượng người tối đa : @item.SLNguoiMax</p>
                                         <p class="custom-p">Tình trạng : @item.TinhTrangStr</p>
                                         <button class="btn btn-info btn-custom-eidt" onClick="Update(@item.Id)" type="button">Chỉnh sửa</button>
                                         <button class="btn btn-danger btn-custom-remove" onClick="Deleted(@item.Id)" type="button">Xóa</button>

@@ -15,11 +15,13 @@ namespace TECH.Controllers
         private readonly IPhongService _phongService;
         private readonly INhaService _nhaService;
         private readonly IDichVuService _dichVuService;
-        public HomeController(IPhongService phongService, INhaService nhaService, IDichVuService dichVuService)
+        private readonly IThanhVienPhongService _thanhVienPhongService;
+        public HomeController(IPhongService phongService, INhaService nhaService, IDichVuService dichVuService, IThanhVienPhongService thanhVienPhongService)
         {
             _phongService = phongService;
             _nhaService = nhaService;
             _dichVuService = dichVuService;
+            _thanhVienPhongService = thanhVienPhongService;
         }
 
         public IActionResult Index()
@@ -53,6 +55,10 @@ namespace TECH.Controllers
                     {
                         item.TenNha = "";
                     }
+                    var UserRooms = _thanhVienPhongService.GetThanhVienByPhong(item.Id);
+                    item.SoLuongNguoiDangO = UserRooms.Count();
+                    // get thành viên phòng
+
                 }
                 if (phongViewModelSearch != null && !string.IsNullOrEmpty(phongViewModelSearch.name))
                 {

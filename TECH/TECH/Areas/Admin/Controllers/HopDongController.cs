@@ -65,76 +65,63 @@ namespace TECH.Areas.Admin.Controllers
         [HttpPost]
         public JsonResult Add(HopDongModelView HopDongModelView)
         {
-            _hopDongService.Add(HopDongModelView);
+            // get thông tin hop đồng
+            // nếu tồn tại user trong hợp đồng thì không add
+            // ngược lại thì sẽ được add vào
+            
             // update trạng thái phòng thành đã có khách thuê
             if (HopDongModelView.MaPhong.HasValue && HopDongModelView.MaPhong.Value > 0 && HopDongModelView.TrangThai.HasValue && (HopDongModelView.TrangThai.Value == 1 || HopDongModelView.TrangThai.Value == 2))
             {
-                _phongService.UpdateTrangThai(HopDongModelView.MaPhong.Value,2); // đã thuê
-                if (HopDongModelView.MaKH.HasValue && HopDongModelView.MaKH.Value > 0)
+                
+                var hopDong = _hopDongService.GetHopDongByKhachHangAndPhong(HopDongModelView.MaKH.Value, HopDongModelView.MaPhong.Value);
+                if (hopDong == null)
                 {
-                    //var khachHang = _khachHangService.GetByid(HopDongModelView.MaKH.Value);
-                    //var phong = _phongService.GetByid(HopDongModelView.MaPhong.Value);
-                    //if (khachHang != null && !string.IsNullOrEmpty(khachHang.Email))
-                    //{
+                    _hopDongService.Add(HopDongModelView);
 
-                    //    MailMessage mail = new MailMessage();
-                    //    mail.To.Add(khachHang.Email.Trim());
-                    //    mail.From = new MailAddress("emcuahai@gmail.com");
-                    //    mail.Subject = "Đặt Phòng";
-                    //    mail.Body = BodyHtmlMail(khachHang, HopDongModelView,phong);
-                    //    mail.IsBodyHtml = true;
-                    //    mail.Sender = new MailAddress("emcuahai@gmail.com");
-                    //    SmtpClient smtp = new SmtpClient();
-                    //    smtp.Port = 587;
-                    //    smtp.EnableSsl = true;
-                    //    smtp.UseDefaultCredentials = false;
-                    //    smtp.Host = "smtp.gmail.com";
-                    //    smtp.Credentials = new System.Net.NetworkCredential("emcuahai@gmail.com", "dyaxbedbjqybcssf");
-                    //    smtp.Send(mail);
-                    //}
-                }                                                                // gửi gmail
-               
+                    _phongService.UpdateTrangThai(HopDongModelView.MaPhong.Value, 2); // đã thuê
+                    // Add thành viên phòng
+                    var thanhvienphong = new ThanhVienPhongModelView();
+                    thanhvienphong.MaKH = HopDongModelView.MaKH;
+                    thanhvienphong.MaPhong = HopDongModelView.MaPhong;
+                    _thanhVienPhongService.Add(thanhvienphong);
+                    _hopDongService.Save();
+                }                
             }
-            // Add thành viên phòng
-            var thanhvienphong = new ThanhVienPhongModelView();
-            thanhvienphong.MaKH = HopDongModelView.MaKH;
-            thanhvienphong.MaPhong = HopDongModelView.MaPhong;
-            _thanhVienPhongService.Add(thanhvienphong);
-            _hopDongService.Save();
+           
             return Json(new
             {
                 success = true
             });
         }
 
-        public string BodyHtmlMail(KhachHangModelView khachHang, HopDongModelView hopdong,PhongModelView phong)
-        {
-            var html =
-    "<div width='100%' style='margin: 0; padding: 20px !important; background-color: #f1f1f1;'>" +
-        "<h3 style='padding: 0px 0px 0px 0px;font-size: 20px;'>Xin Chào Quý Khách</h3>                               " +
-        "<p style='padding: 10px 0px 0px 0px;font-size: 17px;'>Khách sạn cà mau xin chân thành cảm ơn quý khách đã tin tưởng và đặt phòng.</p>                               " +
-        "<p style='padding: 10px 0px 0px 0px;'>Thông tin phòng của bạn.</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Khách Hang: "+khachHang.TenKH+".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Số điện thoại: " + khachHang.SoDienThoai + ".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Địa chỉ: " + khachHang.DiaChi + ".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Số phòng: " + phong.TenPhong + ".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Chiều dài: " + phong.ChieuDai + ".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Chiều rộng: " + phong.ChieuRong + ".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Tiền cọc: " + hopdong.TienCoc + ".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Ngày bắt đầu: " + hopdong.NgayBatDau.Value.ToString("yyyy/MM/dd") + ".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Tiền phòng: " + phong.DonGiaStr + ".</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Lưu ý.</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Quý khách vui lòng đến địa chỉ Số 16 – Ngô Quyền – Khóm 5 – Phường – Thành Phố Cà Mau để tiến hành cách thủ tục nhận phòng và thanh toán tiền để tiếp nhận các cơ sở vật chất và các dịc vụ phòng..</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Nếu sau 3 ngày kể từ ngày khách hàng đặt cọc nhưng không đến nơi để tiến hành các thủ tục nhận phòng thì chúng tôi xẽ không trả lại tiền cọc. Xin cảm ơn!\r\nTiền phòng chưa bao gồm dịch vụ. Quyền lợi của khác hàng được thể hiện đầy đủ ở cuối trang web, quý khách hãy đok kĩ trước khi tiến hành thuê phòng..</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Quý khách vui lòng liên hệ với chúng tôi:</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>SDT: 0346732288</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>FACEBOOK: https://www.facebook.com/</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>ZALO: 0346732288</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>GMAIL: 160501004@student.bdu.edu.vn</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Địa chỉ văn phòng: Số 16 – Ngô Quyền – Khóm 5 – Phường – Thành Phố Cà Mau.</p>                               " +
-         "<p style='padding: 10px 0px 0px 0px;'>Xin trân thành cảm ơn!.</p>                               </div>";
-            return html;
-        }
+    //    public string BodyHtmlMail(KhachHangModelView khachHang, HopDongModelView hopdong,PhongModelView phong)
+    //    {
+    //        var html =
+    //"<div width='100%' style='margin: 0; padding: 20px !important; background-color: #f1f1f1;'>" +
+    //    "<h3 style='padding: 0px 0px 0px 0px;font-size: 20px;'>Xin Chào Quý Khách</h3>                               " +
+    //    "<p style='padding: 10px 0px 0px 0px;font-size: 17px;'>Khách sạn cà mau xin chân thành cảm ơn quý khách đã tin tưởng và đặt phòng.</p>                               " +
+    //    "<p style='padding: 10px 0px 0px 0px;'>Thông tin phòng của bạn.</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Khách Hang: "+khachHang.TenKH+".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Số điện thoại: " + khachHang.SoDienThoai + ".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Địa chỉ: " + khachHang.DiaChi + ".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Số phòng: " + phong.TenPhong + ".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Chiều dài: " + phong.ChieuDai + ".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Chiều rộng: " + phong.ChieuRong + ".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Tiền cọc: " + hopdong.TienCoc + ".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Ngày bắt đầu: " + hopdong.NgayBatDau.Value.ToString("yyyy/MM/dd") + ".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Tiền phòng: " + phong.DonGiaStr + ".</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Lưu ý.</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Quý khách vui lòng đến địa chỉ Số 16 – Ngô Quyền – Khóm 5 – Phường – Thành Phố Cà Mau để tiến hành cách thủ tục nhận phòng và thanh toán tiền để tiếp nhận các cơ sở vật chất và các dịc vụ phòng..</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Nếu sau 3 ngày kể từ ngày khách hàng đặt cọc nhưng không đến nơi để tiến hành các thủ tục nhận phòng thì chúng tôi xẽ không trả lại tiền cọc. Xin cảm ơn!\r\nTiền phòng chưa bao gồm dịch vụ. Quyền lợi của khác hàng được thể hiện đầy đủ ở cuối trang web, quý khách hãy đok kĩ trước khi tiến hành thuê phòng..</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Quý khách vui lòng liên hệ với chúng tôi:</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>SDT: 0346732288</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>FACEBOOK: https://www.facebook.com/</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>ZALO: 0346732288</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>GMAIL: 160501004@student.bdu.edu.vn</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Địa chỉ văn phòng: Số 16 – Ngô Quyền – Khóm 5 – Phường – Thành Phố Cà Mau.</p>                               " +
+    //     "<p style='padding: 10px 0px 0px 0px;'>Xin trân thành cảm ơn!.</p>                               </div>";
+    //        return html;
+    //    }
 
         [HttpPost]
         public JsonResult Update(HopDongModelView HopDongModelView)

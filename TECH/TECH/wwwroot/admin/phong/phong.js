@@ -192,9 +192,11 @@
                             "<div class='image-phong-tro' style='background-image:url(" + srcimg +")'></div>" +
 
                             "<p class='custom-p'>Chiều dài  : " + item.ChieuDai + "</p>" +
-                            "<p class='custom-p'>Chiều rộng : " + item.ChieuRong + "</p>" +
+
+                            "<p class='custom-p'>Chiều rộng : " + item.ChieuRong + "</p>" +                           
                             "<p class='custom-p'>Đơn giá: " + item.DonGiaStr + "</p> " +
-                            /*"<p class='custom-p'>SL người tối đa: " + item.SLNguoiMax + "</p>"+*/
+                        /*"<p class='custom-p'>SL người tối đa: " + item.SLNguoiMax + "</p>"+*/
+                            "<p class='custom-p'>Số lượng người tối đa: " + item.SLNguoiMax + "</p>" +
                             "<p class='custom-p'> Tình trạng: " + item.TinhTrangStr + "</p> " +
                             "<button class='btn btn-info btn-custom-eidt' onClick=\"Update(" + item.Id + ")\" type='button'>Chỉnh sửa</button>" +
                             "<button class='btn btn-danger btn-custom-remove' onClick=\"Deleted(" + item.Id +")\" type='button'>Xóa</button></div>";
@@ -503,6 +505,9 @@
                 },
                 TinhTrangFast: {
                     required: true
+                },
+                SLNguoiMax: {
+                    required: true
                 }
             },
             messages:
@@ -533,6 +538,9 @@
                 },
                 TinhTrangFast: {
                     required: "Vui lòng chọn nhập mô tả"
+                },
+                SLNguoiMax: {
+                    required: "Vui lòng chọn nhập số lượng người"
                 }
             },
             submitHandler: function (form) {
@@ -541,7 +549,7 @@
                 self.Phong.PhongTu = $("#PhongTuFast").val();
                 self.Phong.DenPhong = $("#DenPhongFast").val();
                 self.Phong.DonGia = $("#DonGiaFast").val();
-                self.Phong.SLNguoiMax = $("#SLNguoiMaxFast").val();
+                self.Phong.SLNguoiMax = $("#SLNguoiMax").val();
                 self.Phong.ChieuDai = $("#ChieuDaiFast").val();
                 self.Phong.ChieuRong = $("#ChieuRongFast").val();
                 self.Phong.MoTa = $("#MoTaFast").val();
@@ -574,7 +582,10 @@
                 },
                 MoTa: {
                     required: true
-                },               
+                },    
+                SLNguoiMax: {
+                    required: true
+                }
             },
             messages:
             {
@@ -595,6 +606,9 @@
                 },
                 MoTa: {
                     required: "Vui lòng nhập mô tả"
+                },
+                SLNguoiMax: {
+
                 }
             },
             submitHandler: function (form) {               
@@ -633,6 +647,7 @@
         self.Phong.MoTa = $("#MoTa").val();   
         self.Phong.LoaiPhong = $("#LoaiPhong").val(); 
         self.Phong.TinhTrang = $("#TinhTrang").val(); 
+        
     }
 
     Set.SetValue = function () {
@@ -1111,7 +1126,7 @@
                         self.ThanhVienPhongExist.push(item.MaKH);
                     }
                 }
-                console.log(self.ThanhVienPhongExist);
+                //console.log(self.ThanhVienPhongExist);
             }
         });
     };
@@ -1123,7 +1138,7 @@
             for (var i = 0; i < data.length; i++) {
                 var item = data[i];
                 var htmlEdit = "";
-                if (i != 0) {
+                if (true) {
                     htmlEdit = "<button type=\"button\" class=\"btn btn-primary custom-button\" onClick=\"UpdateThanhVien(" + item.Id + ")\"><i  class=\"bi bi-pencil-square custom-icon\"></i></button>" +
                         "<button type=\"button\" class=\"btn btn-danger custom-button\" onClick=\"DeletedThanhVien(" + item.Id + ")\"><i  class=\"bi bi-trash custom-icon\"></i></button>";
                 }

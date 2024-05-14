@@ -30,6 +30,7 @@ namespace TECH.Service
         int GetCount();
 
         HopDongModelView GetHopDongByPhong(int maPhong);
+        HopDongModelView GetHopDongByKhachHangAndPhong(int maKhachHang,int maPhong);
     }
 
     public class HopDongService : IHopDongService
@@ -111,6 +112,28 @@ namespace TECH.Service
                     IsDeteled = p.IsDeteled,
                     GhiChu = p.GhiChu
                 }).ToList();
+                return data;
+            }
+            return null;
+        }
+       public HopDongModelView GetHopDongByKhachHangAndPhong(int maKhachHang,int maPhong)
+        {
+            if (maPhong > 0 && maKhachHang > 0)
+            {
+                var data = _hopDongRepository.FindAll().Where(h => h.MaPhong == maPhong && h.MaKH == maKhachHang && h.IsDeteled !=true).Select(p => new HopDongModelView()
+                {
+                    Id = p.Id,
+                    MaPhong = p.MaPhong,
+                    MaNV = p.MaNV,
+                    MaKH = p.MaKH,
+                    MaNha = p.MaNha,
+                    NgayBatDau = p.NgayBatDau,
+                    NgayKetThuc = p.NgayKetThuc,
+                    TienCoc = p.TienCoc,
+                    TrangThai = p.TrangThai,
+                    IsDeteled = p.IsDeteled,
+                    GhiChu = p.GhiChu
+                }).FirstOrDefault();
                 return data;
             }
             return null;

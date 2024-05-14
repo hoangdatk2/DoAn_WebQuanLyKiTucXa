@@ -16,15 +16,18 @@ namespace TECH.Controllers
         private readonly INhaService _nhaService;
         //private readonly ICategoryService _categoryService;
         //private readonly ISizesService _sizesService;
+        private readonly IThanhVienPhongService _thanhVienPhongService;
         public IHttpContextAccessor _httpContextAccessor;
         public PhongController(IPhongService phongService,
             IHttpContextAccessor httpContextAccessor,
-            INhaService nhaService
+             IThanhVienPhongService thanhVienPhongService,
+        INhaService nhaService
             )
         {
             _phongService = phongService;
             _nhaService = nhaService;
             _httpContextAccessor = httpContextAccessor;
+            _thanhVienPhongService = thanhVienPhongService;
         }
 
         public IActionResult PhongCategory(int categoryId)
@@ -50,6 +53,12 @@ namespace TECH.Controllers
                         {
                             item.TenNha = "Chờ xử lý";
                         }
+                        var UserRooms = _thanhVienPhongService.GetThanhVienByPhong(item.Id);
+                        if (UserRooms != null)
+                        {
+                            item.SoLuongNguoiDangO = UserRooms.Count();
+                        }
+                      
                     }
                     else
                     {
@@ -90,6 +99,11 @@ namespace TECH.Controllers
                         if (model.TinhTrang.HasValue)
                         {
                             model.TinhTrangStr = Common.GetTinhTrangPhong(model.TinhTrang.Value);
+                        }
+                        var UserRooms = _thanhVienPhongService.GetThanhVienByPhong(model.Id);
+                        if (UserRooms != null)
+                        {
+                            model.SoLuongNguoiDangO = UserRooms.Count();
                         }
                     }
                     else
@@ -150,6 +164,11 @@ namespace TECH.Controllers
                         if (item.TinhTrang.HasValue)
                         {
                             item.TinhTrangStr = Common.GetTinhTrangPhong(item.TinhTrang.Value);
+                        }
+                        var UserRooms = _thanhVienPhongService.GetThanhVienByPhong(item.Id);
+                        if (UserRooms != null)
+                        {
+                            item.SoLuongNguoiDangO = UserRooms.Count();
                         }
                     }
                 }
