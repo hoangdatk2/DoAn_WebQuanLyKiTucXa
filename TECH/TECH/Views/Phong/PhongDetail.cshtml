@@ -237,7 +237,7 @@
             <div class="breadcum">
 
                 <ul>
-                    <li><a title="Shop hoa tươi 360 | Dịch vụ điện hoa uy tín hoatuoi360.vn" href="/">Trang chủ</a></li>
+                    <li><a title="" href="/">Trang chủ</a></li>
                     @*  <li><a href="/hoa-giang-sinh/">Hoa giáng sinh</a></li>*@
                 </ul>
                 <div class="clear"></div>
@@ -485,10 +485,13 @@
                 TrangThai:"",
                 GhiChu:""
             }
+        self.payment = 0;
         $(document).ready(function () {     
             
             self.ValidateUser();
-
+            $(".delivery").change(function () {
+                self.payment = parseInt($(this).val());
+            });
 
             $(".formatdate").datepicker({
                 dateFormat: 'dd/mm/yy'
@@ -555,41 +558,45 @@
                 }
             });
         }
-             self.AddUser = function (userView) {
-            $.ajax({
-                url: '/Admin/HopDong/Add',
-                type: 'POST',
-                dataType: 'json',
-                data: {
-                    HopDongModelView: userView
-                },
-                beforeSend: function () {
-                    Loading('show');
-                },
-                complete: function () {
-                    Loading('hiden');
-                },
-                success: function (response) {
-                    if (response.success) {
-                        //tedu.notify('Thêm mới dữ liệu thành công', 'success');
-                        /*self.GetDataPaging(true);*/
-                        $('#userModal').modal('hide');
-                        window.location.reload();
-                    }
-                    else {
-                        if (response.isPhoneExist) {
-                            $(".phone_number-exist").show().text("Phone đã tồn tại");
+            self.AddUser = function (userView) {
+                $.ajax({
+                    url: '/Admin/HopDong/Add',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        HopDongModelView: userView
+                    },
+                    beforeSend: function () {
+                        Loading('show');
+                    },
+                    complete: function () {
+                        Loading('hiden');
+                    },
+                    success: function (response) {
+                        debugger
+                    if (response.vnpay != "" && self.payment == 1) {
+                        window.location.href = response.vnpay;
+                    } else if (response.success) {
+                            //tedu.notify('Thêm mới dữ liệu thành công', 'success');
+                            /*self.GetDataPaging(true);*/
+                            $('#userModal').modal('hide');
+                            window.location.reload();
                         }
-                        if (response.isMailExist) {
-                            $(".email-exist").show().text("Email đã tồn tại");
+                        else {
+                            if (response.isPhoneExist) {
+                                $(".phone_number-exist").show().text("Phone đã tồn tại");
+                            }
+                            if (response.isMailExist) {
+                                $(".email-exist").show().text("Email đã tồn tại");
+                            }
                         }
                     }
-                }
-            })
-        }
+                })
+            }
         self.GetValue = function () {
             self.HopDong.MaPhong = $("#maphong").val();
             self.HopDong.MaNha = $("#manha").val();
+            self.HopDong.TrangThaiPayment = self.payment;
             /*self.HopDong.NgayBatDau = $("#NgayBatDau").val();   */
             self.HopDong.NgayBatDau = $.datepicker.formatDate("yy-mm-dd", $("#NgayBatDau").datepicker("getDate")); 
             self.HopDong.TienCoc = $("#TienCoc").val(); 

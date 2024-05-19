@@ -28,6 +28,7 @@ namespace TECH.Areas.Admin.Models
         public string? NgayKetThucStr { get; set; }
         public decimal? TienCoc { get; set; }
         public int? TrangThai { get; set; }
+        public int TrangThaiPayment { get; set; }
         public string? TrangThaiStr { get; set; }
         public string? GhiChu { get; set; }
 

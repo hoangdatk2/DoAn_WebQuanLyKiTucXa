@@ -6,6 +6,7 @@ using TECH.Service;
 using System.Text.RegularExpressions;
 using TECH.General;
 using System.Net.Mail;
+using Newtonsoft.Json;
 
 namespace TECH.Areas.Admin.Controllers
 {
@@ -18,15 +19,21 @@ namespace TECH.Areas.Admin.Controllers
         private readonly IKhachHangService _khachHangService;
         private readonly INhanVienService _nhanVienService;
         private readonly IThanhVienPhongService _thanhVienPhongService;
+        private readonly IVnPayService _vnPayservice;
+        public IHttpContextAccessor _httpContextAccessor;
         public HopDongController(IHopDongService hopDongService,
             INhaService nhaService,
             IPhongService phongService,
             IKhachHangService khachHangService,
             INhanVienService nhanVienService,
             IDichVuPhongService dichVuPhongService,
+             IVnPayService vnPayservice,
+             IHttpContextAccessor httpContextAccessor,
             IThanhVienPhongService thanhVienPhongService
             )
         {
+            _httpContextAccessor = httpContextAccessor;
+            _vnPayservice = vnPayservice;
             _hopDongService = hopDongService;
             _nhaService = nhaService;
             _phongService = phongService;
@@ -76,16 +83,38 @@ namespace TECH.Areas.Admin.Controllers
                 var hopDong = _hopDongService.GetHopDongByKhachHangAndPhong(HopDongModelView.MaKH.Value, HopDongModelView.MaPhong.Value);
                 if (hopDong == null)
                 {
-                    _hopDongService.Add(HopDongModelView);
+                    if (HopDongModelView.TrangThaiPayment == 1)
+                    {
+                        _httpContextAccessor.HttpContext.Session.SetString("OrdersModelView", JsonConvert.SerializeObject(HopDongModelView));
+                        var vnPayModel = new VnPaymentRequestModel
+                        {
+                            Amount = HopDongModelView.TienCoc.Value,
+                            CreatedDate = DateTime.Now,
+                            //Description = $"{HopDongModelView.full_name} {user.phone_number}",
+                            //FullName = user.full_name,
+                            OrderId = HopDongModelView.MaPhong.ToString()
+                        };
+                        string htmlvpn = _vnPayservice.CreatePaymentUrl(HttpContext, vnPayModel);
+                        return Json(new
+                        {
+                            success = true,
+                            vnpay = htmlvpn
+                        });
+                    }
+                    else
+                    {
+                        _hopDongService.Add(HopDongModelView);
 
-                    _phongService.UpdateTrangThai(HopDongModelView.MaPhong.Value, 2); // đã thuê
-                    // Add thành viên phòng
-                    var thanhvienphong = new ThanhVienPhongModelView();
-                    thanhvienphong.MaKH = HopDongModelView.MaKH;
-                    thanhvienphong.MaPhong = HopDongModelView.MaPhong;
-                    _thanhVienPhongService.Add(thanhvienphong);
-                    _hopDongService.Save();
-                }                
+                        _phongService.UpdateTrangThai(HopDongModelView.MaPhong.Value, 2); // đã thuê
+                                                                                          // Add thành viên phòng
+                        var thanhvienphong = new ThanhVienPhongModelView();
+                        thanhvienphong.MaKH = HopDongModelView.MaKH;
+                        thanhvienphong.MaPhong = HopDongModelView.MaPhong;
+                        _thanhVienPhongService.Add(thanhvienphong);
+                        _hopDongService.Save();
+                    }
+                }
+                    
             }
            
             return Json(new
@@ -94,34 +123,70 @@ namespace TECH.Areas.Admin.Controllers
             });
         }
 
-    //    public string BodyHtmlMail(KhachHangModelView khachHang, HopDongModelView hopdong,PhongModelView phong)
-    //    {
-    //        var html =
-    //"<div width='100%' style='margin: 0; padding: 20px !important; background-color: #f1f1f1;'>" +
-    //    "<h3 style='padding: 0px 0px 0px 0px;font-size: 20px;'>Xin Chào Quý Khách</h3>                               " +
-    //    "<p style='padding: 10px 0px 0px 0px;font-size: 17px;'>Khách sạn cà mau xin chân thành cảm ơn quý khách đã tin tưởng và đặt phòng.</p>                               " +
-    //    "<p style='padding: 10px 0px 0px 0px;'>Thông tin phòng của bạn.</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Khách Hang: "+khachHang.TenKH+".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Số điện thoại: " + khachHang.SoDienThoai + ".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Địa chỉ: " + khachHang.DiaChi + ".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Số phòng: " + phong.TenPhong + ".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Chiều dài: " + phong.ChieuDai + ".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Chiều rộng: " + phong.ChieuRong + ".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Tiền cọc: " + hopdong.TienCoc + ".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Ngày bắt đầu: " + hopdong.NgayBatDau.Value.ToString("yyyy/MM/dd") + ".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Tiền phòng: " + phong.DonGiaStr + ".</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Lưu ý.</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Quý khách vui lòng đến địa chỉ Số 16 – Ngô Quyền – Khóm 5 – Phường – Thành Phố Cà Mau để tiến hành cách thủ tục nhận phòng và thanh toán tiền để tiếp nhận các cơ sở vật chất và các dịc vụ phòng..</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Nếu sau 3 ngày kể từ ngày khách hàng đặt cọc nhưng không đến nơi để tiến hành các thủ tục nhận phòng thì chúng tôi xẽ không trả lại tiền cọc. Xin cảm ơn!\r\nTiền phòng chưa bao gồm dịch vụ. Quyền lợi của khác hàng được thể hiện đầy đủ ở cuối trang web, quý khách hãy đok kĩ trước khi tiến hành thuê phòng..</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Quý khách vui lòng liên hệ với chúng tôi:</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>SDT: 0346732288</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>FACEBOOK: https://www.facebook.com/</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>ZALO: 0346732288</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>GMAIL: 160501004@student.bdu.edu.vn</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Địa chỉ văn phòng: Số 16 – Ngô Quyền – Khóm 5 – Phường – Thành Phố Cà Mau.</p>                               " +
-    //     "<p style='padding: 10px 0px 0px 0px;'>Xin trân thành cảm ơn!.</p>                               </div>";
-    //        return html;
-    //    }
+        //public IActionResult PaymentCallBack(string vnp_Amount, string vnp_BankCode, string vnp_BankTranNo, string vnp_CardType, string vnp_OrderInfo, string vnp_PayDate, string vnp_ResponseCode, string vnp_TmnCode, string vnp_TransactionNo,
+        //    string vnp_TransactionStatus, string vnp_TxnRef, string vnp_SecureHash)
+        //{
+        //    var response = _vnPayservice.PaymentExecute(Request.Query);
+        //    string Message = "";
+        //    if (response == null || vnp_ResponseCode != "00")
+        //    {
+        //        Message = $"Lỗi thanh toán VN Pay: {response.VnPayResponseCode}";
+        //    }
+
+        //    var data = _httpContextAccessor.HttpContext.Session.GetString("OrdersModelView");
+        //    if (data != null)
+        //    {
+        //        var dataConvert = JsonConvert.DeserializeObject<HopDongModelView>(data);
+        //        if (dataConvert != null)
+        //        {
+        //            var userString = _httpContextAccessor.HttpContext.Session.GetString("UserInfor");
+
+        //            _hopDongService.Add(dataConvert);
+
+        //            _phongService.UpdateTrangThai(dataConvert.MaPhong.Value, 2); // đã thuê
+        //                                                                              // Add thành viên phòng
+        //            var thanhvienphong = new ThanhVienPhongModelView();
+        //            thanhvienphong.MaKH = dataConvert.MaKH;
+        //            thanhvienphong.MaPhong = dataConvert.MaPhong;
+        //            _thanhVienPhongService.Add(thanhvienphong);
+        //            _hopDongService.Save();
+        //            _httpContextAccessor.HttpContext.Session.Remove("OrdersModelView");
+        //            Message = "Thanh toán thành công";
+        //        }
+        //    }
+        //    TempData["Message"] = Message;
+        //    return View();
+        //}
+
+
+        //    public string BodyHtmlMail(KhachHangModelView khachHang, HopDongModelView hopdong,PhongModelView phong)
+        //    {
+        //        var html =
+        //"<div width='100%' style='margin: 0; padding: 20px !important; background-color: #f1f1f1;'>" +
+        //    "<h3 style='padding: 0px 0px 0px 0px;font-size: 20px;'>Xin Chào Quý Khách</h3>                               " +
+        //    "<p style='padding: 10px 0px 0px 0px;font-size: 17px;'>Khách sạn cà mau xin chân thành cảm ơn quý khách đã tin tưởng và đặt phòng.</p>                               " +
+        //    "<p style='padding: 10px 0px 0px 0px;'>Thông tin phòng của bạn.</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Khách Hang: "+khachHang.TenKH+".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Số điện thoại: " + khachHang.SoDienThoai + ".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Địa chỉ: " + khachHang.DiaChi + ".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Số phòng: " + phong.TenPhong + ".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Chiều dài: " + phong.ChieuDai + ".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Chiều rộng: " + phong.ChieuRong + ".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Tiền cọc: " + hopdong.TienCoc + ".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Ngày bắt đầu: " + hopdong.NgayBatDau.Value.ToString("yyyy/MM/dd") + ".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Tiền phòng: " + phong.DonGiaStr + ".</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Lưu ý.</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Quý khách vui lòng đến địa chỉ Số 16 – Ngô Quyền – Khóm 5 – Phường – Thành Phố Cà Mau để tiến hành cách thủ tục nhận phòng và thanh toán tiền để tiếp nhận các cơ sở vật chất và các dịc vụ phòng..</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Nếu sau 3 ngày kể từ ngày khách hàng đặt cọc nhưng không đến nơi để tiến hành các thủ tục nhận phòng thì chúng tôi xẽ không trả lại tiền cọc. Xin cảm ơn!\r\nTiền phòng chưa bao gồm dịch vụ. Quyền lợi của khác hàng được thể hiện đầy đủ ở cuối trang web, quý khách hãy đok kĩ trước khi tiến hành thuê phòng..</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Quý khách vui lòng liên hệ với chúng tôi:</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>SDT: 0346732288</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>FACEBOOK: https://www.facebook.com/</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>ZALO: 0346732288</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>GMAIL: 160501004@student.bdu.edu.vn</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Địa chỉ văn phòng: Số 16 – Ngô Quyền – Khóm 5 – Phường – Thành Phố Cà Mau.</p>                               " +
+        //     "<p style='padding: 10px 0px 0px 0px;'>Xin trân thành cảm ơn!.</p>                               </div>";
+        //        return html;
+        //    }
 
         [HttpPost]
         public JsonResult Update(HopDongModelView HopDongModelView)
@@ -237,6 +302,7 @@ namespace TECH.Areas.Admin.Controllers
             {
                 data.Results = data.Results.Where(p=>p.TrangThai == phongViewModelSearch.status).ToList();
             }
+            data.Results = data.Results.OrderByDescending(p => p.NgayBatDau).ToList();
             return Json(new { data = data });
         }
 

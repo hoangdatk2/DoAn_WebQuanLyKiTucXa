@@ -893,8 +893,10 @@
     }
     self.AddRowHtml = function () {
         var index = 0;
+        var countTr = $(".count-tr tr").length;
+        countTr = countTr + 1;
         var html = "<tr class=\"new\">";
-        html += "<td>" + (++index) + "</td>";
+        html += "<td>" + countTr + "</td>";
         html += "<td>" + self.GetDichVuByIdOrAll(0) + "</td>";
         html += "<td class ='dongia'></td>";
         html += "<td class='soluongtheodichvu'></td>";
@@ -1090,8 +1092,10 @@
     }
     self.AddRowThanhVienHtml = function () {
         var index = 0;
+        var countTr = $(".count-tr-thanh-vien tr").length;
+        countTr = countTr + 1;
         var html = "<tr class=\"new\">";
-        html += "<td>" + (++index) + "</td>";
+        html += "<td>" + countTr + "</td>";
         html += "<td>" + self.GetThanhVienByIdOrAll(0) + "</td>";
         html += "<td class ='sdt'></td>";
         html += "<td class='gioitinh'></td>";

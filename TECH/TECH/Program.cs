@@ -45,6 +45,7 @@ builder.Services.AddScoped<ITheKiTucXaRepository, TheKiTucXaRepository>();
 builder.Services.AddScoped<ITheSinhVienRepository, TheSinhVienRepository>();
 builder.Services.AddScoped<ISuaChuaRepository, SuaChuaRepository>();
 
+builder.Services.AddScoped<IVnPayService, VnPayService>();
 builder.Services.AddScoped<ISuaChuaService, SuaChuaService>();
 builder.Services.AddScoped<ITheSinhVienService, TheSinhVienService>();
 builder.Services.AddScoped<ITheKiTucXaService, TheKiTucXaService>();

@@ -13,17 +13,23 @@ namespace TECH.Controllers
     public class PhongController : Controller
     {
         private readonly IPhongService _phongService;
+        private readonly IHopDongService _hopDongService;
         private readonly INhaService _nhaService;
         //private readonly ICategoryService _categoryService;
         //private readonly ISizesService _sizesService;
         private readonly IThanhVienPhongService _thanhVienPhongService;
         public IHttpContextAccessor _httpContextAccessor;
+        private readonly IVnPayService _vnPayservice;
         public PhongController(IPhongService phongService,
             IHttpContextAccessor httpContextAccessor,
              IThanhVienPhongService thanhVienPhongService,
+              IHopDongService hopDongService,
+        IVnPayService vnPayservice,
         INhaService nhaService
             )
         {
+            _hopDongService = hopDongService;
+            _vnPayservice = vnPayservice;
             _phongService = phongService;
             _nhaService = nhaService;
             _httpContextAccessor = httpContextAccessor;
@@ -76,7 +82,40 @@ namespace TECH.Controllers
             }
             return View(data.Results.ToList());
         }
+        public IActionResult PaymentCallBack(string vnp_Amount, string vnp_BankCode, string vnp_BankTranNo, string vnp_CardType, string vnp_OrderInfo, string vnp_PayDate, string vnp_ResponseCode, string vnp_TmnCode, string vnp_TransactionNo,
+           string vnp_TransactionStatus, string vnp_TxnRef, string vnp_SecureHash)
+        {
+            var response = _vnPayservice.PaymentExecute(Request.Query);
+            string Message = "";
+            if (response == null || vnp_ResponseCode != "00")
+            {
+                Message = $"Lỗi thanh toán VN Pay: {response.VnPayResponseCode}";
+            }
 
+            var data = _httpContextAccessor.HttpContext.Session.GetString("OrdersModelView");
+            if (data != null)
+            {
+                var dataConvert = JsonConvert.DeserializeObject<HopDongModelView>(data);
+                if (dataConvert != null)
+                {
+                    var userString = _httpContextAccessor.HttpContext.Session.GetString("UserInfor");
+
+                    _hopDongService.Add(dataConvert);
+
+                    _phongService.UpdateTrangThai(dataConvert.MaPhong.Value, 2); // đã thuê
+                                                                                 // Add thành viên phòng
+                    var thanhvienphong = new ThanhVienPhongModelView();
+                    thanhvienphong.MaKH = dataConvert.MaKH;
+                    thanhvienphong.MaPhong = dataConvert.MaPhong;
+                    _thanhVienPhongService.Add(thanhvienphong);
+                    _hopDongService.Save();
+                    _httpContextAccessor.HttpContext.Session.Remove("OrdersModelView");
+                    Message = "Thanh toán thành công";
+                }
+            }
+            TempData["Message"] = Message;
+            return View();
+        }
         public IActionResult PhongDetail(int phongId)
         {
             var model = new PhongModelView();
