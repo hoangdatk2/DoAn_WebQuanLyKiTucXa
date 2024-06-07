@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Microsoft Windows\\Downloads\\18-05\\18-05\\TECH\\TECH\\TECH.csproj": {}
+    "D:\\Do-An\\Ki Tuc Xa-finaly\\TECH\\TECH\\TECH.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Microsoft Windows\\Downloads\\18-05\\18-05\\TECH\\TECH\\TECH.csproj": {
+    "D:\\Do-An\\Ki Tuc Xa-finaly\\TECH\\TECH\\TECH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Microsoft Windows\\Downloads\\18-05\\18-05\\TECH\\TECH\\TECH.csproj",
+        "projectUniqueName": "D:\\Do-An\\Ki Tuc Xa-finaly\\TECH\\TECH\\TECH.csproj",
         "projectName": "TECH",
-        "projectPath": "C:\\Users\\Microsoft Windows\\Downloads\\18-05\\18-05\\TECH\\TECH\\TECH.csproj",
+        "projectPath": "D:\\Do-An\\Ki Tuc Xa-finaly\\TECH\\TECH\\TECH.csproj",
         "packagesPath": "C:\\Users\\Microsoft Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Microsoft Windows\\Downloads\\18-05\\18-05\\TECH\\TECH\\obj\\",
+        "outputPath": "D:\\Do-An\\Ki Tuc Xa-finaly\\TECH\\TECH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
